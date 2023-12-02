@@ -11,7 +11,7 @@ import Card2 from '../../components/Card2'
 const Section3 = () => {
   return (
     
-        <div className="section3">
+        <div className="section3" id="section3">
         <button className="btn">Premium Features</button>
         <h6 className="maintext2" id="second">Discover our product's Capabilities</h6>
         <p className="subtext" id="second">Don't settle for mediocrity - embrace the future of management</p>

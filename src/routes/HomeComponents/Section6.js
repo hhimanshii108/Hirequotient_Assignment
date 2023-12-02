@@ -13,7 +13,7 @@ const Section6 = () => {
     }
   return (
     <>
-    <div className='section6'>
+    <div className='section6' id="section6">
         <button className="btn">FAQ</button>
         <h6 className='maintext2'id="second" >Need</h6>
         <h6 className='maintext2' >Answers?</h6>

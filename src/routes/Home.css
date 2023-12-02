@@ -171,3 +171,64 @@
    max-height: 9999px;
     transition: all 0.5s cubic-bezier(0,1,0,1);
 }
+
+.section7{
+    height:300px;
+    padding:40px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section7cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cardItems{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   padding-left: 40px;
+   border-radius: 12px;
+   margin-top: 60px;
+   width: 500px;
+   height: 500px;
+   background-color: rgb(236, 236, 253);
+}
+#cardItems2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   padding-left: 40px;
+   border-radius: 12px;
+   margin-top: 60px;
+   width: 500px;
+   height: 500px;
+   background-color: rgb(0, 0, 0);
+}
+.cardButton{
+    margin-top: 40px;
+    padding: 8px 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: rgb(255,255,255);
+    color: rgb(255, 138, 71);
+    border:0cm;
+    font-weight:700;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.section9{
+    height:800px;
+    padding:40px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: rgb(255, 251, 250);
+}
+.section9 img{
+    height: 450px;
+    width: 900px;
+}
