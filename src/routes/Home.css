@@ -1,0 +1,107 @@
+.section1{
+    padding-top: 95px;
+    align-items: center;
+    background-color:rgb(253, 242, 236);
+    height: 500px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section2{
+    align-items: center;
+    background-color:rgb(255, 248, 246);
+    height: 400px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section3{
+    padding-top: 100px;
+    height:2000px;
+    background-color:rgb(255, 252, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    padding: 8px 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: rgb(255,255,255);
+    color: rgb(130, 71, 255);
+    border:1px solid rgb(130, 71, 255);
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 8px;
+   
+}
+.maintext{
+    font-family: "Outfit", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1em;
+    color: #000;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -.5px;
+}
+.maintext2{
+    font-family: "Outfit", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1em;
+    color: #000;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -.5px;
+}
+#second{
+    padding-top: 20px;
+}
+.subtext{
+   font-family: "Inter", sans-serif;
+   font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    line-height: 1.5em;
+    color: #767575;
+    text-decoration: none;
+    text-transform: none;
+}
+.image1{
+   
+    height: 400px;
+    width: 600px;
+    border-radius: 12px;
+}
+
+
+
+.section4{
+    padding: 40px 40px 40px 50px;
+    margin-top: 1000px;
+    height:1600px;
+    
+    background-color:  rgb(28, 28, 28);;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 40px 40px 50px;
+    height:500px;
+  
+    background-color:  rgb(28, 28, 28);;
+}

@@ -1,0 +1,112 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:rgb(253, 242, 236);
+    height: 80px;
+    box-shadow: black 0px 0px 1px;
+}
+.Logo{
+    height: 40px;
+    color: #000;
+}
+#template{
+    padding-top: 2px;
+    margin-top: 6px;
+ }
+.nav-menu{
+    display: flex;
+}
+.nav-menu ul{
+    padding-top: 20px;
+   padding-left: 30px;
+}
+.nav-menu ul a{
+    font-size: 1rem;
+    font-weight: 540;
+    color: black;
+    
+}
+.nav-menu ul a:hover{
+    font-size: 1rem;
+    font-weight: 540;
+    color: rgb(130, 71, 255);
+    /* padding: 16px 20px; */
+}
+.header img{
+width:70px;
+}
+ul{
+    list-style: none;
+}
+.btn{
+    padding: 12px 12px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(255,255,255);
+    color:#000;
+    border:1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+.btn-light{
+    /* background: transparent; */
+    padding: 12px 32px;
+    font-size: 1rem;
+    color: rgba(236, 13, 13, 0.742)
+}
+.btn:hover{
+    border:1px solid #000;
+    transition: 0.3s;
+}
+.btn-light:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.3s;
+}
+h1,
+h4,
+p,
+a{
+  /* color:#4a4c70; */
+  /* color: #1d244f; */
+  color: aliceblue;
+  text-decoration: none;
+}
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width:900px){
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: #1d244f;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.3s;
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .nav-menu ul{
+        padding: 1rem 0;
+    }
+    .nav-menu ul a{
+        font-size: 2rem;
+    }
+    .hamburger{
+        display: initial;
+    }
+}
