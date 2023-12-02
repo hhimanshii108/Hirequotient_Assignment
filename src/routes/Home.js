@@ -10,11 +10,14 @@ import Section5 from './HomeComponents/Section5.js'
 import Section6 from './HomeComponents/Section6.js'
 import Section7 from './HomeComponents/Section7.js';
 import Section9 from './HomeComponents/Section9.js';
+import TestimonialSlider from "../routes/HomeComponents/TestimonialSlider.js"
+import Footer from "../components/Footer.js"
 
 const Home = () => {
   return (
     <div>
-        <Navbar></Navbar>
+        <Navbar/>
+        <hr></hr>
         <Section1/>
         <Section2/>
         <Section3/>
@@ -23,6 +26,9 @@ const Home = () => {
         <Section6/>
         <Section7/>
         <Section9/>
+        {/* <TestimonialSlider/> */}
+        <Footer/>
+        <hr></hr>
     </div>
   )
 }

@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Adjust as needed */
+    background-color:rgb(255, 246, 240);
+    padding-top: 30px;
+    height: 400px;
+  }
+  
+  .footer > div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-list {
+    display: flex;
+  }
+  
+  /* Styling for the logo and heading */
+  .footer > div:first-child img {
+    width: 40px; /* Adjust the width */
+    margin-right: 10px; /* Adjust as needed */
+    margin-left: 50px;
+  }
+  .footer-img{
+    margin-top: 0px;
+  }
+  
+  .footer > div:first-child h2 {
+    margin: 0;
+    font-size: 20px; /* Adjust the font size */
+  }
+  
+  /* Styling for the paragraph elements */
+  .footer-list p {
+    margin-right: 20px; /* Adjust as needed */
+    color: #333; /* Adjust the color */
+    font-size: 20px; /* Adjust the font size */
+  }
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-right: 40px;
+    padding-left: 0px;
+  }
+  
+  /* Styling for the paragraph elements */
+  .footer-list p {
+    margin-top: 20px;
+    margin-bottom: 10px; /* Add spacing between paragraphs */
+    color: #333; /* Adjust the color */
+    font-size: 16px; /* Adjust the font size */
+    font-weight: 500;
+  }
