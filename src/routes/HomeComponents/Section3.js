@@ -12,9 +12,9 @@ const Section3 = () => {
   return (
     
         <div className="section3" id="section3">
-        <button className="btn">Premium Features</button>
-        <h6 className="maintext2" id="second">Discover our product's Capabilities</h6>
-        <p className="subtext" id="second">Don't settle for mediocrity - embrace the future of management</p>
+        <button className="btn">🔥Premium Features</button>
+       <center> <h6 className="maintext2" id="second">Discover our product's <span className="maintext2" id="orange">Capabilities</span></h6></center>
+        <center><p className="subtext" id="second">Don't settle for mediocrity - embrace the future of management</p></center>
         <p className="subtext" >with Manage Wise.</p>
         
         <Card1 imageUrl={star} heading="Boost productivity and streamline workflow with us. Enjoy our intuitive interface and robust features."/>

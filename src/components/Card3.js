@@ -5,8 +5,8 @@ const Card3 = ({imageUrl, heading, para}) => {
     <div className="card3">
     <img src={imageUrl} alt="Card" className="card-image3" />
     <div className="card-content3">
-      <h3 className="card-heading3">{heading}</h3>
-      <p className="card-para3">{para}</p>
+      <center><h3 className="card-heading3">{heading}</h3></center>
+      <center><p className="card-para3">{para}</p></center>
     </div>
   </div>
   )

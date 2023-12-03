@@ -14,9 +14,9 @@ const Section6 = () => {
   return (
     <>
     <div className='section6' id="section6">
-        <button className="btn">FAQ</button>
+        <button className="btn">🙋‍♀️ FAQ</button>
         <h6 className='maintext2'id="second" >Need</h6>
-        <h6 className='maintext2' >Answers?</h6>
+        <h6 className='maintext2'> <span id="orange">Answers?</span></h6>
         <h6 className='subtext'id="second">Check out our most commonly asked questions below to find the information you need.</h6>
     </div>
         <div className='accordation' id="second">
@@ -24,7 +24,7 @@ const Section6 = () => {
          <div className={selected===i ?'showitem':'item'}>
              <div onClick={()=>toggle(i)} className="title">
               <h3>{item.question}</h3>
-              <span style={{color:"rgb(130, 71, 255)", fontSize:"30px"} }>{selected===i ?'-':'+'}</span>
+              <span style={{color:"rgb(130, 71, 255)", fontSize:"20px"} }>{selected===i ?'-':'+'}</span>
              </div>
              <div className={selected===i ?'content show':'content'}>
               <h3>{item.answer}</h3>

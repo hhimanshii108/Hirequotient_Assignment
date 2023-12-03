@@ -7,10 +7,10 @@ import Card3 from '../../components/Card3'
 const Section4 = () => {
   return (
     <div className='section4'>
-    <button className='btn' style={{ marginBottom:"20px"}}>And More</button>
-    <h6 className='maintext2' style={{color:"white", marginBottom:"20px"}}>Explore an array of features that elevate your Productivity to new heights</h6>
-    <h6 className='subtext' >Discover the tools that will revolutionize the way you </h6>
-    <h6 className='subtext'>manage and optimize your operations</h6>
+    <button className='btn' style={{ marginBottom:"20px"}}>🤩 And More...</button>
+   <center> <h6 className='maintext2' style={{color:"white", marginBottom:"20px"}}>Explore an array of features that elevate your <span class="maintext2" id="orange">Productivity</span> to new heights</h6></center>
+   <center> <h6 className='subtext' >Discover the tools that will revolutionize the way you </h6></center>
+   <center> <h6 className='subtext'>manage and optimize your operations</h6></center>
     <div class="center">
     <Card3 imageUrl={phone} heading="Cross-Platform Compatibility" para="Enjoy the flexibility of cross-platform compatibility. Our product works seamlessly across desktop, web, and mobile devices, allowing you to work from your preferred device."/>
     <Card3 imageUrl={notification} heading="Stay Informed with Essential Notifications" para="Automate support from first customer contact to closing the ticket. Drastically improve time to resolution.Automate support from first customer contact to closing the ticket."/>

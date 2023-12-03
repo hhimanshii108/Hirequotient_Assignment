@@ -25,7 +25,7 @@ const Navbar = () => {
                 <Link to="/testimonial">Testimonial</Link>
             </ul>
             <ul id="template">
-                <Link id="template" to="/buy"><button class="btn">Buy Template</button></Link>
+                <Link id="template" to="/buy"><button class="btn-nav">Buy Template</button></Link>
             </ul>
              
         </ul>

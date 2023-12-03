@@ -1,8 +1,13 @@
+*{
+    max-width: 100%;
+}
 .section1{
     padding-top: 95px;
+    padding-left: 50px;
+    padding-right: 30px;
     align-items: center;
     background-color:rgb(253, 242, 236);
-    height: 500px;
+    height: 550px;
     display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,14 +15,14 @@
 .section2{
     align-items: center;
     background-color:rgb(255, 248, 246);
-    height: 400px;
+    height: 350px;
     display: flex;
   flex-direction: column;
   align-items: center;
 }
 .section3{
     padding-top: 100px;
-    height:2000px;
+    height:1800px;
     background-color:rgb(255, 252, 252);
     display: flex;
     flex-direction: column;
@@ -29,13 +34,13 @@
     align-items: center;
 }
 .btn{
-    padding: 8px 40px;
-    font-size: 12px;
+    padding: 8px 25px;
+    font-size: 14px;
     text-transform: uppercase;
     background: rgb(255,255,255);
     color: rgb(130, 71, 255);
-    border:1px solid rgb(130, 71, 255);
-    font-weight: 400;
+    border:1px solid rgb(233, 233, 233);
+    font-weight: 600;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -44,9 +49,10 @@
     border-radius: 8px;
    
 }
+
 .maintext{
     font-family: "Outfit", sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 500;
     line-height: 1em;
@@ -65,9 +71,51 @@
     text-decoration: none;
     text-transform: none;
     letter-spacing: -.5px;
+}#grey{
+    color: #fffefe;
+}
+#orange{
+    color: rgb(255, 136, 0);
 }
 #second{
-    padding-top: 20px;
+    padding-top: 30px;
+}
+#second2{
+    padding-top: 30px;
+}
+.main-btn1{
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: rgb(130, 71, 255);
+    color: rgb(255, 255, 255);
+    border:1px solid rgb(171, 171, 171);
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+.main-btn2{
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: rgb(255,255,255);
+    color: rgb(0,0,0);
+    border:1px solid rgb(171, 171, 171);
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+.two-buttons{
+   
 }
 .subtext{
    font-family: "Inter", sans-serif;
@@ -80,9 +128,8 @@
     text-decoration: none;
     text-transform: none;
 }
-.image1{
-   
-    height: 400px;
+.image1{  
+    height: 350px;
     width: 600px;
     border-radius: 12px;
 }
@@ -91,9 +138,9 @@
 
 .section4{
     padding: 40px 40px 40px 50px;
-    margin-top: 1000px;
+    margin-top: 1200px;
     height:1600px;
-    
+    padding-top: 100px;
     background-color:  rgb(28, 28, 28);;
 }
 .section5{
@@ -101,13 +148,16 @@
     flex-direction: column;
     align-items: center;
     padding: 40px 40px 40px 50px;
-    height:500px;
+    height:650px;
   
     background-color:  rgb(28, 28, 28);
 }
+.section5 img{
+    height: 200px;
+}
 .section6{
     padding: 40px 40px 40px 50px;
-  margin-top: 200px;
+  margin-top: 50px;
     height:300px;
 }
 .accordation{
@@ -205,8 +255,10 @@
    background-color: rgb(0, 0, 0);
 }
 .cardButton{
-    margin-top: 40px;
-    padding: 8px 40px;
+    padding: 8px 20px;
+ 
+    /* padding-left: 30px;
+    padding-right: 30px; */
     font-size: 15px;
     text-transform: uppercase;
     background: rgb(255,255,255);
@@ -219,7 +271,13 @@
     display: inline-block;
     border-radius: 8px;
 }
-
+#card-spacing{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.cardButtonSpacing{
+    margin-top: 30px;
+}
 .section9{
     height:740px;
     padding:40px 40px 40px 40px;
@@ -232,3 +290,301 @@
     height: 450px;
     width: 900px;
 }
+
+@media (max-width: 986px) {
+    .section1{
+        padding-left: 50px;
+        padding-right: 30px;
+        padding-top: 50px;
+        height: 500px;
+        
+     }
+     .maintext{
+         padding-top: 20px;
+       font-size: 70px;
+     }
+     .subtext{
+        
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+}
+@media (max-width: 942px) {
+
+     .maintext{
+         padding-top: 20px;
+       font-size: 50px;
+     }
+     .subtext{
+        
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+}
+@media (max-width: 830px) {
+
+    .item{
+      
+        width:400px;
+        /* height: 90px; */
+    }
+    .showitem{
+        width:400px;
+        /* height: 90px; */
+    }
+    .title h3{
+        color: rgb(130, 71, 255);
+    }
+    .content h3{
+        color: #767575;
+        font-weight: 400;
+        font-size:medium;
+        padding-top: 20px;
+    }
+    .title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        padding-top: 20px;
+    }
+    .title h3{
+        font-size: medium;
+    }
+    .maintext2{
+        font-size: 40px;
+      }
+    
+}
+  /* mobile view */
+@media (max-width: 600px) {
+    *{
+        max-width: 100%;
+        /* overflow-x: hidden; */
+    }
+    /* .body{
+        max-width: 100%;
+        overflow-x: hidden;
+    } */
+    .section1{
+       padding-left: 50px;
+       padding-right: 30px;
+       padding-top: 50px;
+       height: 500px;
+       
+    }
+    .maintext{
+        padding-top: 20px;
+      font-size: 30px;
+    }
+    .subtext{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section2 img{
+        height: 250px;
+        width:450px
+    }
+    .section2{
+        height: 250px;
+    }
+    .section3{
+        padding-left: 30px;
+       padding-right: 30px;
+        height:1600px
+    }
+    .maintext2{
+        font-size: 30px;
+      }
+      .subtext2{
+        margin-left: 50px;
+        padding-right: 10px;
+      }
+      .section4{
+      
+        margin-top: 1200px;
+        height:1600px;
+        padding-top: 100px;
+        background-color:  rgb(28, 28, 28);;
+    }
+    .section5{
+       
+        height:583px;
+    }
+    .item{
+      
+        width:350px;
+        /* height: 90px; */
+    }
+    .showitem{
+        width:350px;
+        /* height: 90px; */
+    }
+    .title h3{
+        color: rgb(130, 71, 255);
+    }
+    .content h3{
+        color: #767575;
+        font-weight: 400;
+        font-size:medium;
+        padding-top: 20px;
+    }
+    .title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        padding-top: 20px;
+    }
+    .title h3{
+        font-size: medium;
+    }
+    #cardItems{ 
+       width: 400px;
+       height: 470px;
+    }
+    #cardItems2{ 
+        width: 400px;
+        height: 470px;
+     }
+   
+    .section9 img{
+        height: 250px;
+        width: 500px;
+    }
+    .section9{
+        height: 550px;
+    }
+    
+    
+  }
+
+  /* 486 798 */
+  @media (max-width: 477px) 
+  {
+    *{
+        max-width: 100%;
+    }
+    .btn{
+        padding: 8px 15px;
+        font-size: 10px;
+       
+    }
+    .maintext{
+        padding-top: 20px;
+      font-size: 30px;
+    }
+    .subtext{
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .maintext2{
+        padding-top: 20px;
+      font-size: 30px;
+    }
+    .subtext{
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-btn1{
+        padding: 10px 12px;
+        font-size: 10px;
+        font-weight: 400;
+        margin-right: 5px;
+    }
+    .main-btn2{
+        padding: 10px 12px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .section2 img{
+        height: 150px;
+        width:250px
+    }
+    .section2{
+        height: 150px;
+    }
+    .section3{
+        padding-top: 20px;
+        height:1000px
+    }
+
+    .item{
+      
+        width:250px;
+        /* height: 90px; */
+    }
+    .showitem{
+        width:250px;
+        /* height: 90px; */
+    }
+    .title h3{
+        color: rgb(130, 71, 255);
+    }
+    .content h3{
+        color: #767575;
+        font-weight: 300;
+        font-size:10px;
+        padding-top: 10px;
+    }
+    .title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        padding-top: 12pxpx;
+    }
+    .title h3{
+        font-size: 12px;
+    }
+    #cardItems{ 
+        width: 200px;
+        height: 270px;
+        padding-left: 10px;
+     }
+     #cardItems2{ 
+         width: 200px;
+         height: 270px;
+         padding-left: 10px;
+      }
+      .cardButton{
+        padding: 5px 10px;
+        font-size: 10px;
+        text-transform: uppercase;
+        background: rgb(255,255,255);
+        color: rgb(255, 138, 71);
+        border:0cm;
+        font-weight:400;
+    }
+    #card-spacing{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .cardTitle{
+        font-size: 12px;
+    }
+    #second2{
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    .cardButtonSpacing{
+        margin-top: 10px;
+    }
+    .section9 img{
+        height: 150px;
+        width: 300px;
+    }
+    .section9{
+        height: 400px;
+    }
+    .main-btn1{
+        padding: 8px 10px;
+        font-size: 10px;
+        font-weight: 400;
+        margin-right: 5px;
+    }
+  }
+    

@@ -6,7 +6,7 @@ const Card2 = ({ imageUrl, heading, text }) => {
         <img src={imageUrl} alt="Card" className="card-image" />
         <div className="card-content">
           <h3 className="card-heading">{heading}</h3>
-          <p className="card-text">{text}</p>
+          <center><p className="card-text">{text}</p></center>
         </div>
       </div>
     );

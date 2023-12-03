@@ -5,7 +5,7 @@ const Card1 = ({imageUrl, heading}) => {
     <div className="card1">
     <img src={imageUrl} alt="Card" className="card-image2" />
     <div className="card-content2">
-      <h3 className="card-heading2">{heading}</h3>
+     <center> <h3 className="card-heading2">{heading}</h3></center>
     </div>
   </div>
   )
